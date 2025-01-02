@@ -277,25 +277,25 @@ footer{
             min-height: 100vh;
             padding: 2rem;
             padding-top: 1rem;
-            padding-left: 0.3rem;
+            /* padding-left: 1rem; */
             align-items: center;
         }
         
         .intro .intro_img img{
             height: 15rem;
             padding-top: 5rem;
-            padding-left: 2.5rem;
+            padding-left: 6rem;
         }
         .intro .intro_des{
             color: white;
             /* width: 40rem; */
-            padding: 4rem;
+            padding: 5rem;
         }
         
         .intro .intro_des h1{
             font-size: 1.7rem;
-            width:30rem;
-            display: inline;
+            width:37rem;
+            display: inline-block;
         }
         .intro .intro_des h1::after{
             content: '';
@@ -311,8 +311,9 @@ footer{
             font-weight: 100;
             padding-top: 1rem;
             font-size: 0.7rem;
-            width: 10rem;
             text-align:justify;
+            display: inline-block;
+            width: 17rem;
         
             /* border-style: solid;
             border-color: var(--second); */
