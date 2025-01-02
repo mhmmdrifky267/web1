@@ -176,7 +176,7 @@ footer{
 
 /* conten end */
 
-@media (max-width:550px){
+@media (max-width:490px){
     .navbar{
         display: flex;
         justify-content:end;
